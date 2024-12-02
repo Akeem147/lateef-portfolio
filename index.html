@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- box icons link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- remix icons link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#" id="home">Abdul<span>Raheem.</span></a>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+
+      <div class="contact-menu">
+        <a class="top-btn" href="#contacts">Contact Me</a>
+        <div id="menu-icon"><i class="ri-menu-line"></i></div>
+      </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="home" id="home">
+      <div class="main-content" data-aos="fade-in">
+        <h4>Hi, There!</h4>
+        <h1>Abdul Raheem</h1>
+        <h2>I am a passionate <span class="hero-input"></span></h2>
+        <p>
+          Ethical Hacker | Information Security Analyst.
+        </p>
+        <div class="socials">
+          <a href="https://twitter.com/PharaohKvng"><i class="ri-twitter-fill"></i></a>
+          <a href="https://www.instagram.com/kvng_pharaoh1/profilecard/?igsh=MWZveTFlZ3A5ejQzcA=="><i class="ri-instagram-line"></i></a>
+          <a href="https://img.shields.io/badge/LinkedIn-Abdullateef%20Abdulraheem-blue?logo=linkedin&style=for-the-badge&link=https://www.linkedin.com/in/abdullateef-abdulraheem-3ba290255/"><i class="ri-linkedin-fill"></i></a>
+          <a href="https://github.com/Kvngpharaoh"><i class="ri-github-fill"></i></a>
+        </div>
+
+        <div class="main-btn">
+          <a class="hire-btn" href="#contacts">Hire Me</a>
+          <a target="_blank" class="cv-btn" href="img/cvv.pdf">Download Cv</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <h1>About <span>Me</span></h1>
+      <div class="about-info">
+        <div class="about-text" data-aos="zoom-in-up">
+          <p>
+            I am a dedicated cybersecurity professional passionate about creating secure digital environments and protecting systems against evolving threats. With a strong foundation in cybersecurity principles and hands-on experience, I excel at identifying vulnerabilities, implementing robust solutions, and ensuring compliance with industry standards.
+
+            I am eager to bring my expertise to a forward-thinking organization where I can contribute to enhancing security measures and mitigating risks in a rapidly changing digital landscape.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+      <div>
+        <div class="center-text" data-aos="fade-down">
+          <h1>My <span>Services</span></h1>
+        </div>
+
+        <div class="services-content" data-aos="zoom-in-up">
+          <div class="card">
+            <i class="ri-shield-keyhole-line"></i>
+            <h2>Vulnerability Assessments and Security Audits</h2>
+            <p>
+              Identify hidden weaknesses in your systems before attackers do. I deliver actionable insights to strengthen your defenses and ensure your business stays secure.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="ri-server-line"></i>
+            <h2>Endpoint Protection and Threat Mitigation</h2>
+            <p>
+              Protect your devices from cyber threats with robust security solutions. I help secure endpoints to keep your data safe and your operations running smoothly.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="ri-alert-line"></i>
+            <h2>Incident Response Assistance</h2>
+            <p>
+              Be ready to tackle cyberattacks with quick and effective response strategies. I assist in containing breaches and restoring your systems with minimal disruption.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section -->
+    <section class="projects" id="projects">
+      <div data-aos="fade-down">
+        <h1>A link to my <span>recent projects</span></h1>
+        <i class="ri-hand-pointer-line" style="font-size: 24px; margin-right: 8px;"></i>
+      </div>
+
+      <div class="portfolio-content" data-aos="zoom-in-up">
+          <div class="project_details">
+            <a href="https://github.com/Kvngpharaoh/Basic-Home-Lab/tree/main"
+             target="_blank">Click here</a>
+          </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contacts" id="contacts">
+      <div data-aos="fade-down">
+        <h1>Contact <span>Me</span></h1>
+      </div>
+      <div class="contacts-form" data-aos="zoom-in">
+        <form action="mailto:Odedeakeem539@gmail.com" method="post" enctype="text/plain">
+          <input type="text" placeholder="Enter your name" name="name" required />
+          <input type="email" placeholder="Enter email address" name="email" required />
+          <textarea name="message" cols="30" rows="5" placeholder="Write a message" required></textarea>
+          <input type="submit" value="Send Message" class="send-btn" />
+        </form>
+        
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <div class="footer">
+      <div class="copy-right">
+        <p>2024 Abdul-raheem, All Rights Reserved.</p>
+      </div>
+      <a href="#" class="scroll-top" id="#home"><i class="ri-arrow-up-line arrow"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        duration: 1400,
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".hero-input", {
+        strings: ["Cybersecurity specialist"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </body>
+</html>
